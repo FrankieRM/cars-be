@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/FrankieRM/cars-be.svg?branch=master)](https://travis-ci.org/FrankieRM/cars-be) 
+
 # Basic CRUD App with Angular 5.0 and Spring Boot 2.0
  
 This example app shows how to build a basic CRUD app with Spring Boot 2.0, Spring Data, and Angular 5.0.
