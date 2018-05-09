@@ -8,3 +8,6 @@ cache:
     - '$HOME/.maven'
 
 script: "./mvnw clean install"
+
+before_install:
+  - chmod +x mvnw
