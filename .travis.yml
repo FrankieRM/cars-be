@@ -2,6 +2,10 @@ language: java
 jdk:
   - openjdk8
 
+env:
+  global:
+    - CODECOV_TOKEN=80a6ec8c-6e88-435e-908f-a7b3e0264ed0
+    
 cache:
   directories:
     - '$HOME/.m2/repository'
@@ -9,4 +13,6 @@ cache:
 before_install:
   - chmod +x mvnw
   
-script: "./mvnw clean install"
+script:
+ - "./mvnw clean install"
+ - bash <(curl -s https://codecov.io/bash)
