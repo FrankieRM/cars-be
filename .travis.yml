@@ -9,6 +9,9 @@ cache:
 before_install:
   - chmod +x mvnw
   
+before_script:
+  - _JAVA_OPTIONS=
+  
 script:
  - "./mvnw clean install cobertura:cobertura"
 
