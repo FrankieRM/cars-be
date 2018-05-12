@@ -1,5 +1,5 @@
 language: java
-sudo: false # faster builds
+sudo: false #faster builds
 jdk:
   - oraclejdk8
     
@@ -15,6 +15,3 @@ before_script:
   
 script:
  - "./mvnw clean install cobertura:cobertura"
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
