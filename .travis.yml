@@ -20,8 +20,4 @@ script:
  - "./mvnw clean test"
 
 after_success:
-  - java -jar ~/codacy-coverage-reporter-assembly-latest.jar report -l Java -r build/reports/jacoco/test/jacocoTestReport.xml
-  - ls -la build/
-  - ls -la build/reports/
-  - ls -la build/reports/jacoco/
-  - ls -la build/reports/jacoco/test/
+  - java -jar ~/codacy-coverage-reporter-assembly-latest.jar report -l Java -r target/site/jacoco/jacoco.xml
