@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/FrankieRM/cars-be.svg?branch=master)](https://travis-ci.org/FrankieRM/cars-be) 
+[![Build Status](https://travis-ci.org/FrankieRM/cars-be.svg?branch=master)](https://travis-ci.org/FrankieRM/cars-be)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/6e0934d6ccd64ddd896ff361b5c73828)](https://www.codacy.com/app/FrankieRM/cars-be?utm_source=github.com&utm_medium=referral&utm_content=FrankieRM/cars-be&utm_campaign=Badge_Coverage)
 
 # Basic CRUD App with Angular 5.0 and Spring Boot 2.0
  
